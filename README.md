@@ -19,7 +19,7 @@
 	
 	![SMOTE Oversampling](https://github.com/jediracer/Credit_Risk_Analysis/blob/main/images/SMOTE_Oversampling.png)
 
-	- The balanced accuracy for the SMOTE Oversampling model is 63.15%, similar to the Oversampling accuracy. The precision and recall is also nearly identical to the Oversampling model.
+	- The balanced accuracy for the SMOTE Oversampling model is 63.15%, similar to the accuracy of the Oversampling model. The precision and recall is also nearly identical to the Oversampling model.
 	
 - Undersampling
 	- Undersampling Imbalanced Classification Report
@@ -33,7 +33,7 @@
 	
 	![Combination (Over and Under) Sampling](https://github.com/jediracer/Credit_Risk_Analysis/blob/main/images/Combination.png)
 
-	- The balanced accuracy for the Undersampling model is 62.56%, which is slightly higher than the Undersampling model. The precision matches the other models. However, the recall number is higher for the "high_risk" classification than the previous models but the lower for the "low_risk" classification.
+	- The balanced accuracy for the Combination (Over and Under) Sampling model is 62.56%, which is slightly higher than the Undersampling model. The precision matches the other models. However, the recall number is higher for the "high_risk" classification than the previous models but the lower for the "low_risk" classification.
 	
 - Balanced Random Forest Classifier
 	- Balanced Random Forest Classifier Imbalanced Classification Report
@@ -47,7 +47,7 @@
 	
 	![Easy Ensemble AdaBoost Classifier](https://github.com/jediracer/Credit_Risk_Analysis/blob/main/images/Easy_Ensemble.png)
 
-	- The balanced accuracy for the Easy Ensemble AdaBoost model is 91.74% which is the highest of all 6 models. The precision and recall number are also the highest of all of the models.  Though, the precision number is still very low for the "high_risk" classification.
+	- The balanced accuracy for the Easy Ensemble AdaBoost model is 91.74% which is the highest of all 6 models. The precision and recall numbers are also the highest of all of the models.  Though, the precision number is still very low for the "high_risk" classification.
 
 ## Summary
 
